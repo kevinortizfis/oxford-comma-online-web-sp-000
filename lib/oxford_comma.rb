@@ -6,7 +6,7 @@ elsif array.length == 2
 elsif array.length >= 3
   array.join(", ")
   for array[-1] in array
-    array << "and #{array[0]}"
+    array.prepend "and #{array[0]}"
   end
 end
 end
