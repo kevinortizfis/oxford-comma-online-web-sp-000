@@ -5,8 +5,7 @@ elsif array.length == 2
   array.join(" and ")
 elsif array.length >= 3
   array.join(", ")
-  for array[-1] in array
-    array.prepend "and #{array[0]}"
+  array[-1].prepend("and ")
   end
 end
 end
