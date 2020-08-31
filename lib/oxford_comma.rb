@@ -6,5 +6,6 @@ elsif array.length == 2
 elsif array.length >= 3
   array.join(", ")
   array[-1].prepend("and ")
+  array
 end
 end
